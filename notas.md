@@ -5,7 +5,7 @@ Creamos ubn nuevo repo Crea una rama main con 3 commits Crea una rama feature co
 # Ejercicio 2 Git
 
 ## Creación del proyecto
-- Crear carpteta gti.exercice1
+- Crear carpteta gti.exercice2
 - Abrir consola en la carpeta
 - git init
 - hacer commit "Initial commit"
@@ -20,7 +20,6 @@ Creamos ubn nuevo repo Crea una rama main con 3 commits Crea una rama feature co
 ## Comprobar los commit
 - git log --oneline
 
-
 ## Crear rama feature
 - Crear rama feature: git branch feature
 - Cambiar a rama feature: git checkout feature
@@ -34,9 +33,25 @@ Creamos ubn nuevo repo Crea una rama main con 3 commits Crea una rama feature co
 - comprobar que archivo está listo para commit
 - git commit -m "Add archivofx.html"
 
+## Comprobar log
+- Comprobar los cambios: git log --oneline
+
+    3d3e76e (HEAD -> feature) Add archivof2.html
+    2d043b4 Add archivof1.html
+    e782ded (main) Add archivo3.html
+    35be1a6 Add archivo2.html
+    1ff64d8 Add archivo1.html
+    bf4a928 Initial Commit
+
 ## Volver a rama main y crear 1 commit
+- Volver a main: git checkout main
+- crear archivo archivom1.html
+- git add archivom1.html
+- git commit -m "Add archivom1.html
+- comprobar log: git log --oneline
 
 
+a
 ## Merge rama feature en main
 - Comprobar el log: git log --oneline
 - Cambiar a rama main: git checkout main
